@@ -1,0 +1,2 @@
+PyQt5
+qt_utils @ git+https://github.com/timjolson/qt_utils.git

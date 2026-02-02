@@ -1,0 +1,22 @@
+[project]
+name = "adjustableWidget"
+version = "0.5"
+description = "PyQt5 QWidget subclass, use as a mixin. DraggableWidget can be moved by mouse, AdjustableWidget can be moved and sized by mouse."
+authors = [
+    { name = "timjolson", email = "timjolson@users.noreply.github.com" }
+]
+readme = "README.md"
+requires-python = ">=3.6"
+dependencies = [
+    "PyQt5",
+    "qt_utils @ git+https://github.com/timjolson/qt_utils.git"
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest"
+]
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
